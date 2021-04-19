@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/item_mappingStyle" android:title="摇杆模式" >
+        <menu >
+            <group >
+                <item
+                    android:id="@+id/item_jp_style1"
+                    android:title="日本手" />
+                <item
+                    android:id="@+id/item_usa_style2"
+                    android:title="美国手" />
+                <item
+                    android:id="@+id/item_cn_style3"
+                    android:title="中国手" />
+            </group>
+        </menu>
+    </item>
+    <item android:id="@+id/item_returnHeight" android:title="返航高度" />
+    <item
+        android:id="@+id/item_perception"
+        android:title="感知设置" />
+</menu>

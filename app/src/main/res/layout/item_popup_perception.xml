@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:clipToPadding="false"
+    android:orientation="vertical">
+
+
+    <Switch
+        android:id="@+id/switch_visualAvoid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="视觉避障" />
+
+    <Switch
+        android:id="@+id/switch_visonPositionning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="下视定位" />
+
+    <Switch
+        android:id="@+id/switch_landingProtection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="降落保护" />
+
+    <Switch
+        android:id="@+id/switch_preciseLanding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="精准降落" />
+</LinearLayout>

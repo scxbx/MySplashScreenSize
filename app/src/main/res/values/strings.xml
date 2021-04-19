@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Splash Screen Size</string>
+
+    <string-array name="planets_array">
+        <item>美国手</item>
+        <item>日本手</item>
+        <item>中国手</item>
+    </string-array>
+
+</resources>
